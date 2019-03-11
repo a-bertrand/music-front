@@ -68,12 +68,3 @@ export default class GenericForm extends React.Component <Props> {
             
     }
 }
-
-/*
-contact_name
-contact_phone
-contact_email
-shop_name
-contact_position
-
-*/

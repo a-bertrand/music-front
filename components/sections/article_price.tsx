@@ -1,6 +1,6 @@
 export default () => (
     <section className="hero is-fullheight hero-image">
-        <div className="hero-body">
+        <div className="hero-body formule-part">
             <div className="container">
                 <h1 className="title has-text-centered">
                     Formules
@@ -15,7 +15,7 @@ export default () => (
                     <div className="column">
                         <div className="card">
                             <div className="card-header">
-                                Cours d'instrument
+                                <h2>Cours d'instrument</h2>
                             </div>
                             <div className="card-body">
                                 <div className="content">

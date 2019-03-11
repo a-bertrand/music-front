@@ -209,15 +209,6 @@ function (_React$Component) {
 
   return GenericForm;
 }(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
-/*
-contact_name
-contact_phone
-contact_email
-shop_name
-contact_position
-
-*/
-
 
 
 
@@ -294,7 +285,6 @@ function (_React$Component) {
     value: function render() {
       var props = this.props;
       var faclass = "fa fa-";
-      var checkclass = "fa fa-check";
       var class_input = "";
 
       if (this.state.validate) {
@@ -484,12 +474,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "hero is-fullheight hero-image"
+    className: "hero video is-fullheight has-text-centered "
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "hero-head  has-text-centered"
+    className: "hero-video"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("video", {
+    id: "bgvid",
+    playsInline: true,
+    autoPlay: true,
+    muted: true,
+    loop: true
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
+    src: "static/videos/presentation.mov"
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "hero-body"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "title"
-  }, "Ecole de musique d'Ancenis ")));
+  }, "Ecole de musique d'Ancenis")));
 });
 
 /***/ }),
@@ -513,24 +513,28 @@ __webpack_require__.r(__webpack_exports__);
     className: "hero-body"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    class: "title has-text-centered"
-  }, "Pr\xE9sentation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "columns text-left"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "column"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Vous \xEAtes d\xE9butants ?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Franchir le pas n\u2019est pas toujours facile, c\u2019est pour cette raison que l\u2019enseignement de L\u2019\xC9cole de Musiques Actuelles est con\xE7ue pour vous initier sans pression. Au rythme d\u2019un cours d\u2019une heure par semaine ou toutes les deux semaines avec trois autres passionn\xE9s et un professeur ouvert et facile d\u2019acc\xE8s. Vous jouerez bient\xF4t les morceaux que vous \xE9coutez tous les jours. Vous toucherez l\u2019instrument d\xE8s le premier cours et apprendrez \xE0 jouer avec ou sans solf\xE8ge selon votre volont\xE9. L\u2019\xC9cole de Musiques Actuelles vous propose des cours de guitare, de basse, de ukulele et des ateliers pour jouer en groupe.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Atelier jeu en groupe")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Atelier jeu en groupe La musique prend tout son int\xE9r\xEAt lorsqu\u2019on la partage non ? Les ateliers de jeu en groupe (en compagnie d\u2019autres instrumentistes) pour apprendre \xE0 \xE9couter les autres, \xE0 r\xE9agir en fonction de ce qu\u2019ils font et tout simplement pour se faire plaisir \xE0 plusieurs. Cet atelier de groupe est aussi important que les cours. Diff\xE9rents concerts seront bien s\xFBr le couronnement de ces sessions collectives."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Vous \xEAtes d\xE9butants ?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Franchir le pas n\u2019est pas toujours facile, c\u2019est pour cette raison que l\u2019enseignement de L\u2019\xC9cole de Musiques Actuelles est con\xE7ue pour vous initier sans pression. Au rythme d\u2019un cours d\u2019une heure par semaine ou toutes les deux semaines avec trois autres passionn\xE9s et un professeur ouvert et facile d\u2019acc\xE8s. Vous jouerez bient\xF4t les morceaux que vous \xE9coutez tous les jours. Vous toucherez l\u2019instrument d\xE8s le premier cours et apprendrez \xE0 jouer avec ou sans solf\xE8ge selon votre volont\xE9. L\u2019\xC9cole de Musiques Actuelles vous propose des cours de guitare, de basse, de ukulele et des ateliers pour jouer en groupe."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Atelier jeu en groupe"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "La musique prend tout son int\xE9r\xEAt lorsqu\u2019on la partage non ? Les ateliers de jeu en groupe (en compagnie d\u2019autres instrumentistes) pour apprendre \xE0 \xE9couter les autres, \xE0 r\xE9agir en fonction de ce qu\u2019ils font et tout simplement pour se faire plaisir \xE0 plusieurs. Cet atelier de groupe est aussi important que les cours. Diff\xE9rents concerts seront bien s\xFBr le couronnement de ces sessions collectives."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "box-img"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "http://www.lecoledemusiquesactuelles.fr/wp-content/uploads/2018/09/SAM_0016.jpg",
     className: "image"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "column"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "box-img"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "http://www.lecoledemusiquesactuelles.fr/wp-content/uploads/2018/09/SAM_0020.jpg",
     className: "image"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Vous n\u2019\xEAtes pas d\xE9butant"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Si vous \xEAtes d\xE9j\xE0 un musicien avanc\xE9, L\u2019\xC9cole de Musiques Actuelles aura aussi de quoi vous faire progresser. Par un enseignement adapt\xE9 \xE0 vos besoin, vous pourrez travailler des aspects plus techniques, th\xE9oriques et poser vos questions pr\xE9cises au professeur."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Vous n\u2019\xEAtes pas d\xE9butant"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Si vous \xEAtes d\xE9j\xE0 un musicien avanc\xE9, L\u2019\xC9cole de Musiques Actuelles aura aussi de quoi vous faire progresser. Par un enseignement adapt\xE9 \xE0 vos besoin, vous pourrez travailler des aspects plus techniques, th\xE9oriques et poser vos questions pr\xE9cises au professeur."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "box-img"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "http://www.lecoledemusiquesactuelles.fr/wp-content/uploads/2018/09/SAM_0018.jpg",
     className: "image"
-  }))))));
+  })))))));
 });
 
 /***/ }),
@@ -551,7 +555,7 @@ __webpack_require__.r(__webpack_exports__);
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     className: "hero is-fullheight hero-image"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "hero-body"
+    className: "hero-body formule-part"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
@@ -568,7 +572,7 @@ __webpack_require__.r(__webpack_exports__);
     className: "card"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card-header"
-  }, "Cours d'instrument"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Cours d'instrument")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card-body"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "content"
@@ -633,21 +637,27 @@ __webpack_require__.r(__webpack_exports__);
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_generic_generic_form_index__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_generic_generic_form_input__WEBPACK_IMPORTED_MODULE_2__["default"], {
     fonta: "user",
     placeholder: "Nom",
-    name: "contact_name",
+    name: "first_name",
+    type: "text",
+    title: "",
+    className: " is-half"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_generic_generic_form_input__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    fonta: "user",
+    placeholder: "Prenom",
+    name: "last_name",
     type: "text",
     title: "",
     className: " is-half"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_generic_generic_form_input__WEBPACK_IMPORTED_MODULE_2__["default"], {
     fonta: "phone",
     placeholder: "T\xE9l\xE9phone",
-    name: "contact_phone",
+    name: "phone",
     type: "tel",
-    title: "",
-    className: " is-half"
+    title: ""
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_generic_generic_form_input__WEBPACK_IMPORTED_MODULE_2__["default"], {
     fonta: "envelope",
     placeholder: "Email",
-    name: "contact_email",
+    name: "email",
     type: "email",
     title: "",
     required: true

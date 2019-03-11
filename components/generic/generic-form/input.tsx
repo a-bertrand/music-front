@@ -24,7 +24,6 @@ export default class GenericInput extends React.Component<Field, State> {
     render() {
         const props         = this.props;
         let faclass         = "fa fa-";
-        let checkclass      = "fa fa-check";
         let class_input     = "";
         if (this.state.validate){
             checkclass  += " is-success";

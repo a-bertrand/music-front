@@ -1,7 +1,7 @@
 /* ===================================================================================== */
 /* ===================================================================================== */
 html {
-  background-color: rgba(0, 0, 0, 0.8); }
+  background-color: rgba(247, 247, 247, 0.93) !important; }
 
 /* ===================================================================================== */
 /* ===================================================================================== */
@@ -24,12 +24,12 @@ article .hero-body {
   padding: 0px !important; }
 
 section, html, .title, article, .box, .card, .navbar-item {
-  color: white; }
+  color: black; }
 
 .card {
   border-radius: 6px;
   background-color: rgba(250, 250, 250, 0.1);
-  min-height: 350px;
+  min-height: 400px;
   padding: 2%; }
   .card h3 {
     font-size: 28px; }
@@ -38,9 +38,10 @@ section, html, .title, article, .box, .card, .navbar-item {
     margin: 0 auto; }
   .card .card-header {
     padding: 3%;
-    font-size: 34px;
     box-shadow: 0 2px 3px rgba(100, 100, 100, 0.3);
     border-radius: 6px;
+    height: 60px;
+    font-size: 28px;
     text-align: center; }
   .card .card-header p, .card .card-image {
     margin: 0 auto; }
@@ -130,9 +131,25 @@ section, html, .title, article, .box, .card, .navbar-item {
     height: 100%;
     width: 100%; }
 
+.formule-part {
+  background-color: rgba(200, 10, 10, 0.8); }
+
 .article-home .hero-image {
   background: url("http://www.musiclipse.com/wp-content/uploads/2014/06/kirk-and-james-metallica-live-wallpaper.jpg") center center;
   background-size: cover; }
+
+.article-contact {
+  background-image: #FFF; }
+  .article-contact .hero-footer {
+    background-color: rgba(150, 150, 150, 0.4); }
+  .article-contact .hero-footer .image {
+    margin: 0 auto; }
+
+.article-presentation .box-img {
+  padding: 5%; }
+
+.article-why {
+  background-image: url("https://static-zerogachis.s3.amazonaws.com/main/img/fancy_deboss.png"); }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

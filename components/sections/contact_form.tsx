@@ -9,7 +9,15 @@ export default () => (
             <GenericInput
                 fonta="user"
                 placeholder="Nom"
-                name="contact_name"
+                name="first_name"
+                type="text"
+                title=""
+                className=" is-half"
+            />
+            <GenericInput
+                fonta="user"
+                placeholder="Prenom"
+                name="last_name"
                 type="text"
                 title=""
                 className=" is-half"
@@ -17,15 +25,14 @@ export default () => (
             <GenericInput
                 fonta="phone"
                 placeholder="Téléphone"
-                name="contact_phone"
+                name="phone"
                 type="tel"
                 title=""
-                className=" is-half"
             />
             <GenericInput
                 fonta="envelope"
                 placeholder="Email"
-                name="contact_email"
+                name="email"
                 type="email"
                 title="" 
                 required={true}
