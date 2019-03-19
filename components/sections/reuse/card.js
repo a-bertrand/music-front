@@ -1,12 +1,6 @@
 import React from "react";
 
-interface Props {
-    array_content : string;
-    img_src : string;
-    header : string;
-}
-
-export default class Card extends React.Component<Props> {
+export default class Card extends React.Component {
     render() {
         const {array_content, img_src, header} = this.props;
         return(

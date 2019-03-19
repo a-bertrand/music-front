@@ -1,3 +1,6 @@
 node_modules/
 static/images
 static/videos
+.next
+out
+build/

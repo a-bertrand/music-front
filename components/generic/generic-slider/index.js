@@ -1,26 +1,7 @@
 import React from 'react'
 
-interface State {
-    current_img_id : number;
-    slider_max : number;
-    upper_modificator : number;
-    down_modificator : number;
-    total_modificator : number;
-    PREVIOUS : string;
-    NEXT : string;
-    
-}
-interface Props {
-    img_array : Array<string>;
-}
-
-interface IMG_ARRAY {
-    src : string;
-    array_text : any;
-}
-
-export default class Rotation extends React.Component <Props, State> {
-    constructor(props : Props) {
+export default class Rotation extends React.Component {
+    constructor(props) {
         super(props);
         this.state = {
             current_img_id : 0,
@@ -62,7 +43,7 @@ export default class Rotation extends React.Component <Props, State> {
         return (
             <div className="carousel carousel-animated carousel-animate-slide">
                 <div className='carousel-container'>   
-                    {   img_array.map(function (img_elem: string, i : number) {
+                    {   img_array.map(function (img_elem, i ) {
                             let img_link = img_elem.src
                             let class_name = "has-background carousel-item"
                             let order = 1;

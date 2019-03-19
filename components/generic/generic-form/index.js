@@ -1,22 +1,14 @@
 import React from 'react'
 
-interface Props {
-    title_validate : string;
-}
-interface State {
-    email_send : boolean;
-    fields : any;
-}
-
-export default class GenericForm extends React.Component <Props> {
-    constructor(props: any) {
+export default class GenericForm extends React.Component {
+    constructor(props) {
         super(props);
         this.state = {
             email_send : false,
             fields :{}
         }
     }
-    handleOnsubmit(event: any) {
+    handleOnsubmit(event) {
         event.preventDefault();
             const fields = this.state.fields
             //TODO
@@ -35,7 +27,7 @@ export default class GenericForm extends React.Component <Props> {
             })  
             */  
     }
-    handleChange(event: any) {
+    handleChange(event) {
         let name  = event.target.name;
         let value = event.target.value;
         this.setState(prevState => ({

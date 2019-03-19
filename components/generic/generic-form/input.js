@@ -1,18 +1,13 @@
 import React from 'react';
 
-interface State  {
-    validate : boolean;
-}
-
-
-export default class GenericInput extends React.Component<Field, State> {
-    constructor(props : Field) {
+export default class GenericInput extends React.Component {
+    constructor(props ) {
         super(props)
         this.state = {
             validate  : false
         };
     }
-    handleinternChange(event : any) {    
+    handleinternChange(event ) {    
         let value_length = event.target.value.length;
         if(event.target.checkValidity() && value_length > 2) {
             this.setState({validate:true});
