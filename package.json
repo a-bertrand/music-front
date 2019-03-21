@@ -3,8 +3,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "export": "npm run build && next export",
-    "start": "next start"
+    "start": "node server.js"
   },
   "dependencies": {
     "@types/styled-components": "^4.0.0",
@@ -17,6 +16,7 @@
     "react-anchor-link-smooth-scroll": "^1.0.11",
     "react-dom": "16.6.0",
     "google-map-react": "1.0.0",
+    "express": "^4.16.4",
     "styled-components": "^4.0.2"
   },
   "devDependencies": {
