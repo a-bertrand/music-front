@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "node server.js"
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "@types/styled-components": "^4.0.0",
