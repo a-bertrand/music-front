@@ -10,6 +10,7 @@ export default class Layout extends React.Component {
         return (
             <React.Fragment>
                 <Head>
+                    <link href="https://fonts.googleapis.com/css?family=Magra" rel="stylesheet" />
                     <title>Ecole de musique d'Ancenis</title>
                     <meta charSet='utf-8' />
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />

@@ -18,7 +18,7 @@ export default class NavBar extends React.Component{
                         <AnchorLink className="navbar-item" href="#ref-presentation">Présentation</AnchorLink >
                         <AnchorLink className="navbar-item" href="#ref-price">Formules</AnchorLink >
                         <AnchorLink className="navbar-item" href="#ref-contact">Nous contacter</AnchorLink >
-                        <a className="navbar-item" target="_blank" href="http://localhost:8000">Espaces Elèves</a >
+                        <a className="navbar-item" target="_blank" href="http://espace.bean3330.odns.fr/">Espaces Elèves</a >
                     </div>
                 </div>
             </nav>

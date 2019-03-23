@@ -2,5 +2,7 @@ node_modules/
 static/images
 static/videos
 .next
+./next
+next/
 out
 build/

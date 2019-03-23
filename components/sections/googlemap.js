@@ -13,13 +13,16 @@ export default class SimpleHoverMap extends Component {
     var center =  mapCenter;
     var zoom =  16;
     return (
-      <div style={{ height: '45vh', width: '100%' }}>
-        <GoogleMapReact
-          defaultCenter={center}
-          defaultZoom={zoom}
-        >
-        <Marker lat={mapCenter.lat} lng={mapCenter.lng} />
-        </GoogleMapReact>
+      <div class="mapouter">
+      <div class="gmap_canvas">
+      <iframe width="100%" height="400" id="gmap_canvas" 
+      src="https://maps.google.com/maps?q=13%20rue%20des%20grands%20champs%20ancenis&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+      frameborder="0"
+      scrolling="no"
+      marginheight="0"
+      marginwidth="0">
+      </iframe>
+      </div>
       </div>
     );
   }

@@ -5,7 +5,7 @@ export default () => (
                 <h1 className="title has-text-centered">
                     Formules
                 </h1>
-                <div className="box has-text-centered">
+                <div className="global-price box has-text-centered">
                     <h2 className="sub-title">
                         A PARTIR DE
                         18.75€ / heure 
@@ -19,7 +19,7 @@ export default () => (
                             </div>
                             <div className="card-body">
                                 <div className="content">
-                                    <p className="has-text-centered">235€/trimestre</p>
+                                    <p className="value-price has-text-centered">235€/trimestre</p>
                                     <hr/>
                                     <ul>
                                         <li>Cours collectif de 4 élèves maximum</li>
@@ -35,10 +35,10 @@ export default () => (
                     <div className="column">
                         <div className="card">
                             <div className="card-header">
-                                Cours d'instrument
+                                <h2>Cours d'instrument</h2>
                             </div>
                             <div className="content">
-                                <p className="has-text-centered">150€/trimestre</p>
+                                <p className="value-price has-text-centered">150€/trimestre</p>
                                 <hr/>
                                 <ul>
                                     <li>Cours collectif de 4 élèves maximum</li>
@@ -53,11 +53,11 @@ export default () => (
                     <div className="column">
                         <div className="card">
                             <div className="card-header">
-                            Enfants 8-10 ans
+                                <h2>Enfants 8-10 ans</h2>
                             </div>
                             <div className="card-body">
                                 <div className="content">
-                                    <p className="has-text-centered">143€/trimestre</p>
+                                    <p className="value-price has-text-centered">143€/trimestre</p>
                                     <hr/>
                                     <ul>
                                         <li>Cours entier joué sur la guitare</li>
@@ -73,11 +73,11 @@ export default () => (
                     <div className="column">
                         <div className="card">
                             <div className="card-header">
-                                Atelier Groupe
+                                <h2>Atelier Groupe</h2>
                             </div>
                             <div className="card-body">
                                 <div className="content">
-                                    <p className="has-text-centered">143€/trimestre</p>
+                                    <p className="value-price has-text-centered">143€/trimestre</p>
                                     <hr/>
                                     <ul>
                                         <li>Atelier jeu en groupe</li>

@@ -1,9 +1,13 @@
 .article-contact {
     background-image : #FFF;
-    .hero-footer{
-        background-color: rgba(150,150,150,0.4);
-    }
+    background-color: white;
     .hero-footer .image {
         margin: 0 auto;
+    }
+    form{
+        padding: 8%;
+    }
+    .hero-body{
+        padding: 2%;
     }
 }
