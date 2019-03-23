@@ -22,11 +22,12 @@ export default () => (
                                     <p className="value-price has-text-centered">235€/trimestre</p>
                                     <hr/>
                                     <ul>
-                                        <li>Cours collectif de 4 élèves maximum</li>
-                                        <li>De niveau et d’âge proche</li>
-                                        <li>Avec ou sans solfège</li>
-                                        <li>Morceaux choisis avec les élèves</li>
-                                        <li>+ de 15 morceaux appris sur l’année</li>
+                                        <li><i className="fa fa-graduation-cap"></i> Cours collectif de 4 élèves maximum</li>
+                                        <li><i className="fa fa-users"></i> De niveau et d’âge proche</li>
+                                        <li><i className="fa fa-music"></i> Avec ou sans solfège</li>
+                                        <li><i className="fa fa-spotify"></i> Morceaux choisis avec les élèves</li>
+                                        <li><i className="fa fa-wrench"></i> Accès privé à un espace médias dédié en ligne</li>
+                                        <li><i className="fa fa-book"></i> + de 15 morceaux appris sur l’année</li>
                                     </ul>
                                 </div>
                             </div>
@@ -41,11 +42,12 @@ export default () => (
                                 <p className="value-price has-text-centered">150€/trimestre</p>
                                 <hr/>
                                 <ul>
-                                    <li>Cours collectif de 4 élèves maximum</li>
-                                    <li>De niveau et d’âge proche</li>
-                                    <li>Avec ou sans solfège</li>
-                                    <li>Morceaux choisis avec les élèves</li>
-                                    <li>+ de 15 morceaux appris sur l’année</li>
+                                    <li><i className="fa fa-graduation-cap"></i> Cours collectif de 4 élèves maximum</li>
+                                    <li><i className="fa fa-users"></i> De niveau et d’âge proche</li>
+                                    <li><i className="fa fa-music"></i> Avec ou sans solfège</li>
+                                    <li><i className="fa fa-spotify"></i> Morceaux choisis avec les élèves</li>
+                                    <li><i className="fa fa-wrench"></i> Accès privé à un espace médias dédié en ligne</li>
+                                    <li><i className="fa fa-book"></i> + de 15 morceaux appris sur l’année</li>
                                 </ul>
                             </div>
                         </div>
@@ -60,11 +62,12 @@ export default () => (
                                     <p className="value-price has-text-centered">143€/trimestre</p>
                                     <hr/>
                                     <ul>
-                                        <li>Cours entier joué sur la guitare</li>
-                                        <li>Cours collectif de 4 élèves maximum</li>
-                                        <li>Avec ou sans solfège</li>
-                                        <li>Morceaux choisis avec les élèves</li>
-                                        <li>+ de 10 morceaux appris sur l’année</li>
+                                        <li><i className="fa fa-graduation-cap"></i> Cours entier joué sur la guitare</li>
+                                        <li><i className="fa fa-users"></i> Cours collectif de 4 élèves maximum</li>
+                                        <li><i className="fa fa-music"></i> Avec ou sans solfège</li>
+                                        <li><i className="fa fa-spotify"></i> Morceaux choisis avec les élèves</li>
+                                        <li><i className="fa fa-wrench"></i> Accès privé à un espace médias dédié en ligne</li>
+                                        <li><i className="fa fa-book"></i> + de 10 morceaux appris sur l’année</li>
                                     </ul>
                                 </div>
                             </div>
@@ -80,11 +83,12 @@ export default () => (
                                     <p className="value-price has-text-centered">143€/trimestre</p>
                                     <hr/>
                                     <ul>
-                                        <li>Atelier jeu en groupe</li>
-                                        <li>De niveau et d’âge proche</li>
-                                        <li>Différents instrumentistes réunis</li>
-                                        <li>Morceaux choisis avec les élèves</li>
-                                        <li>Concert de fin d’année</li>
+                                        <li><i className="fa fa-graduation-cap"></i> Atelier jeu en groupe</li>
+                                        <li><i className="fa fa-users"></i> De niveau et d’âge proche</li>
+                                        <li><i className="fa fa-music"></i> Différents instrumentistes réunis</li>
+                                        <li><i className="fa fa-spotify"></i> Morceaux choisis avec les élèves</li>
+                                        <li><i className="fa fa-wrench"></i> Accès privé à un espace médias dédié en ligne</li>
+                                        <li><i className="fa fa-microphone"></i> Concert de fin d’année</li>
                                     </ul>
                                 </div>
                             </div>

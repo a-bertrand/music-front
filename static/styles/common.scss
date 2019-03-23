@@ -67,9 +67,13 @@ section, html, .title, article,.box,.card,.navbar-item {
         font-size: 30px;
         margin-top: 30px;
     }
+    ul {
+        margin-left: 1em;
+    }
     li {
         margin-bottom: 20px;
         font-size: 15px;
+        list-style: none;
     }
 }
 
