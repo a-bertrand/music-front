@@ -66,5 +66,13 @@
         display: flex;
         overflow: hidden;
     }
+    .video-layout{
+        position: relative;
+        z-index: 10;
+        top: -50%;
+        h1 {
+            font-size: 5vw;
+        }
+    }
 }
 
