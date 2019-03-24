@@ -2,22 +2,52 @@ import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 export default class NavBar extends React.Component{
+    constructor(props ) {
+        super(props)
+        this.state = {
+            OnclickekBurger  : false
+        };
+    }
+    on_click_burger(){
+        this.setState({
+            OnclickekBurger : !this.state.OnclickekBurger
+        })
+    }
+    exit_menu(){
+        this.setState({
+            OnclickekBurger : false
+        }) 
+    }
     render(){
+        let burger_nav_class = "navbar-menu"
+        if(this.state.OnclickekBurger == true){
+            burger_nav_class += " display_it"
+        }
         return(
             <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
                 <div className="navbar-brand">
                     <AnchorLink className="navbar-item" href="#ref-presentation"> 
                         <img className="image" 
-                            src="http://www.lecoledemusiquesactuelles.fr/wp-content/uploads/2018/06/Logo-jpeg.jpg" alt="Zéro-Gâchis" />
+                            src="http://www.lecoledemusiquesactuelles.fr/wp-content/uploads/2018/06/Logo-jpeg.jpg" alt="L'école de musique d'ancenis" />
                     </AnchorLink >
+                    <a role="button" 
+                    class="navbar-burger burger" 
+                    aria-label="menu" 
+                    aria-expanded="false" 
+                    data-target="navbarBasicExample" 
+                    onClick={this.on_click_burger.bind(this)}>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
                 </div>
 
-                <div id="navbarBasic" className="navbar-menu">
+                <div id="navbarBasic" className={burger_nav_class}>
                     <div className="navbar-end">
-                        <AnchorLink className="navbar-item" href="#ref-home">Acceuil</AnchorLink >
-                        <AnchorLink className="navbar-item" href="#ref-presentation">Présentation</AnchorLink >
-                        <AnchorLink className="navbar-item" href="#ref-price">Formules</AnchorLink >
-                        <AnchorLink className="navbar-item" href="#ref-contact">Nous contacter</AnchorLink >
+                        <AnchorLink onClick={this.on_click_burger.bind(this)} className="navbar-item" href="#ref-home">Acceuil</AnchorLink >
+                        <AnchorLink onClick={this.on_click_burger.bind(this)} className="navbar-item" href="#ref-presentation">Présentation</AnchorLink >
+                        <AnchorLink onClick={this.on_click_burger.bind(this)} className="navbar-item" href="#ref-price">Formules</AnchorLink >
+                        <AnchorLink onClick={this.on_click_burger.bind(this)} className="navbar-item" href="#ref-contact">Nous contacter</AnchorLink >
                         <a className="navbar-item" target="_blank" href="http://espace.bean3330.odns.fr/">Espaces Elèves</a >
                     </div>
                 </div>

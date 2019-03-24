@@ -53,7 +53,7 @@ export default class GenericForm extends React.Component {
         } else {
             return (
                 <div className="notification is-primary">
-                    Email envoyé, merci ! Zéro-Gachis vous contactera rapidement. 
+                    Email envoyé, merci !
                 </div>
             )     
         }

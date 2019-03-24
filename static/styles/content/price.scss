@@ -3,5 +3,13 @@
     .global-price{
         margin-bottom: 60px;
         margin-top: 60px;
+        background-color: aliceblue;
+    }
+    .card {
+        background-color: aliceblue;
+        padding:4%;
+    }
+    .card-header{
+        background-color:rgba(100, 100, 100, 0.5) 0px 2px 3px 1px !important;
     }
 }
