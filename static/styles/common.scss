@@ -42,8 +42,11 @@ section, html, .title, article,.box,.card,.navbar-item {
 }
 
 @media screen and (max-width: 1470px) {
-    .card{
-        min-height: 600px;
+    .article-price .card{
+        min-height: 680px !important;
+    }
+    .article-price .card-header {
+        min-height: 200px !important;
     }
 }
 
