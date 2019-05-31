@@ -16,10 +16,11 @@ export default () => (
                         <div className="card">
                             <div className="card-header">
                                 <h2>Cours d'instrument</h2>
+                                <h4>1h / semaine</h4>
                             </div>
                             <div className="card-body">
                                 <div className="content">
-                                    <p className="value-price has-text-centered">235€/trimestre</p>
+                                    <p className="value-price has-text-centered">245€/trimestre</p>
                                     <hr/>
                                     <ul>
                                         <li><i className="fa fa-graduation-cap"></i> Cours collectif de 4 élèves maximum</li>
@@ -37,9 +38,10 @@ export default () => (
                         <div className="card">
                             <div className="card-header">
                                 <h2>Cours d'instrument</h2>
+                                <h4>1h / toutes les 2 semaines</h4>
                             </div>
                             <div className="content">
-                                <p className="value-price has-text-centered">150€/trimestre</p>
+                                <p className="value-price has-text-centered">160€/trimestre</p>
                                 <hr/>
                                 <ul>
                                     <li><i className="fa fa-graduation-cap"></i> Cours collectif de 4 élèves maximum</li>
@@ -56,10 +58,11 @@ export default () => (
                         <div className="card">
                             <div className="card-header">
                                 <h2>Enfants 8-10 ans</h2>
+                                <h4>3/4h / toutes les 2 semaines</h4>
                             </div>
                             <div className="card-body">
                                 <div className="content">
-                                    <p className="value-price has-text-centered">143€/trimestre</p>
+                                    <p className="value-price has-text-centered">150€/trimestre</p>
                                     <hr/>
                                     <ul>
                                         <li><i className="fa fa-graduation-cap"></i> Cours entier joué sur la guitare</li>
@@ -77,10 +80,11 @@ export default () => (
                         <div className="card">
                             <div className="card-header">
                                 <h2>Atelier Groupe</h2>
+                                <h4>1h30 / toutes les 2 semaine</h4>
                             </div>
                             <div className="card-body">
                                 <div className="content">
-                                    <p className="value-price has-text-centered">143€/trimestre</p>
+                                    <p className="value-price has-text-centered">113€/trimestre</p>
                                     <hr/>
                                     <ul>
                                         <li><i className="fa fa-graduation-cap"></i> Atelier jeu en groupe</li>

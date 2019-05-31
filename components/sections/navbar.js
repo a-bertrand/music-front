@@ -44,7 +44,7 @@ export default class NavBar extends React.Component{
 
                 <div id="navbarBasic" className={burger_nav_class}>
                     <div className="navbar-end">
-                        <AnchorLink onClick={this.on_click_burger.bind(this)} className="navbar-item" href="#ref-home">Acceuil</AnchorLink >
+                        <AnchorLink onClick={this.on_click_burger.bind(this)} className="navbar-item" href="#ref-home">Accueil</AnchorLink >
                         <AnchorLink onClick={this.on_click_burger.bind(this)} className="navbar-item" href="#ref-presentation">Présentation</AnchorLink >
                         <AnchorLink onClick={this.on_click_burger.bind(this)} className="navbar-item" href="#ref-price">Formules</AnchorLink >
                         <AnchorLink onClick={this.on_click_burger.bind(this)} className="navbar-item" href="#ref-contact">Nous contacter</AnchorLink >

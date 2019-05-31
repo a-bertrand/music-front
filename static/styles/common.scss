@@ -41,10 +41,16 @@ section, html, .title, article,.box,.card,.navbar-item {
     color: black;
 }
 
+@media screen and (max-width: 1470px) {
+    .card{
+        min-height: 600px;
+    }
+}
+
 .card {
     border-radius: 6px;
     background-color: rgba(250,250,250,0.1); 
-    min-height: 430px;
+    min-height: 450px;
     padding : 2%;
     h3 {
         font-size: 28px;
@@ -68,7 +74,6 @@ section, html, .title, article,.box,.card,.navbar-item {
     .value-price{
         font-size: 30px;
         margin-top: 30px;
-            
     }
     ul {
         margin-left: 1em;
@@ -77,6 +82,9 @@ section, html, .title, article,.box,.card,.navbar-item {
         margin-bottom: 20px;
         font-size: 15px;
         list-style: none;
+    }
+    h4{
+        font-size:18px;
     }
 }
 
