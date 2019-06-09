@@ -1,6 +1,26 @@
 import FormContact  from './contact_form';
 import GoogleMap    from './googlemap'
 export default () => (
+    <section className="hero has-text-centered">
+        <div className="hero-footer">
+            <div className="column">
+                <h1 className="title has-text-centered">
+                    Nous contacter
+                </h1>
+                <p>
+                    <b>Adresse :</b> 13 Rue des Grands Champs, 44150 Ancenis
+                </p>
+                <p>
+                    <b>Téléphone : </b>06 18 07 88 38
+                </p>
+            </div>
+            <hr/>
+            <GoogleMap />
+        </div>
+    </section>
+)
+/*
+export default () => (
     <section className="hero is-fullheight has-text-centered">
         <div className="hero-body">
             <div className="container is-fuild">
@@ -22,4 +42,4 @@ export default () => (
             <GoogleMap />
         </div>
     </section>
-)
+)*/

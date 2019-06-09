@@ -28,7 +28,7 @@ export default class NavBar extends React.Component{
                 <div className="navbar-brand">
                     <AnchorLink className="navbar-item" href="#ref-presentation"> 
                         <img className="image" 
-                            src="http://www.lecoledemusiquesactuelles.fr/wp-content/uploads/2018/06/Logo-jpeg.jpg" alt="L'école de musique d'ancenis" />
+                            src="http://bean3330.odns.fr/front-media/logo.jpg" alt="L'école de musique d'ancenis" />
                     </AnchorLink >
                     <a role="button" 
                     class="navbar-burger burger" 
@@ -48,7 +48,7 @@ export default class NavBar extends React.Component{
                         <AnchorLink onClick={this.on_click_burger.bind(this)} className="navbar-item" href="#ref-presentation">Présentation</AnchorLink >
                         <AnchorLink onClick={this.on_click_burger.bind(this)} className="navbar-item" href="#ref-price">Formules</AnchorLink >
                         <AnchorLink onClick={this.on_click_burger.bind(this)} className="navbar-item" href="#ref-contact">Nous contacter</AnchorLink >
-                        <a className="navbar-item" target="_blank" href="http://espace.bean3330.odns.fr/">Espaces Elèves</a >
+                        <a className="navbar-item" target="_blank" href="http://espace.bean3330.odns.fr/">Espaces élèves</a >
                     </div>
                 </div>
             </nav>

@@ -41,14 +41,7 @@ section, html, .title, article,.box,.card,.navbar-item {
     color: black;
 }
 
-@media screen and (max-width: 1470px) {
-    .article-price .card{
-        min-height: 680px !important;
-    }
-    .article-price .card-header {
-        min-height: 200px !important;
-    }
-}
+
 
 .card {
     border-radius: 6px;

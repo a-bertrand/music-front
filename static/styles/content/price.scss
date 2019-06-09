@@ -13,3 +13,23 @@
         background-color:rgba(100, 100, 100, 0.5) 0px 2px 3px 1px !important;
     }
 }
+@media screen and (max-width: 1470px) {
+    .article-price .card{
+        min-height: 680px !important;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .article-price .card-header {
+        min-height: 180px !important;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .article-price .card-header {
+        min-height: 180px !important;
+    }
+}
+@media screen and (max-width: 770px) {
+    .article-price .card-header {
+        min-height: 120px !important;
+    }
+}
