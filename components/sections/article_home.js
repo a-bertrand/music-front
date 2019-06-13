@@ -9,7 +9,7 @@ export default () => (
                         </video>
                     </div>
                     <div className="video-layout">
-                        <div className="home-text">
+                        <div className="home-text has-text-centered">
                             <h1 className="title">L'&Eacute;cole de musiques actuelles <br/> d'Ancenis</h1>
                         </div>
                     </div>
