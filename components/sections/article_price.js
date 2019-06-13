@@ -8,7 +8,7 @@ export default () => (
                 <div className="global-price box has-text-centered">
                     <h2 className="sub-title">
                         A PARTIR DE
-                        18.75€ / heure 
+                        19.70€ / heure 
                     </h2>     
                 </div>
                 <div className="columns text-left">

@@ -10,7 +10,7 @@ export default () => (
                     </div>
                     <div className="video-layout">
                         <div className="home-text">
-                            <h1 className="title">Ecole de musiques actuelles d'Ancenis</h1>
+                            <h1 className="title">L'&Eacute;cole de musiques actuelles <br/> d'Ancenis</h1>
                         </div>
                     </div>
                 </div>
