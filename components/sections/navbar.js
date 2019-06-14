@@ -48,7 +48,7 @@ export default class NavBar extends React.Component{
                         <AnchorLink onClick={this.on_click_burger.bind(this)} className="navbar-item" href="#ref-presentation">Présentation</AnchorLink >
                         <AnchorLink onClick={this.on_click_burger.bind(this)} className="navbar-item" href="#ref-price">Formules</AnchorLink >
                         <AnchorLink onClick={this.on_click_burger.bind(this)} className="navbar-item" href="#ref-contact">Nous contacter</AnchorLink >
-                        <a className="navbar-item" target="_blank" href="http://espace.bean3330.odns.fr/">Espaces élèves</a >
+                        <a className="navbar-item" target="_blank" href="http://espace.lecoledemusiquesactuelles.fr">Espaces élèves</a >
                     </div>
                 </div>
             </nav>
