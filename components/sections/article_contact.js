@@ -13,13 +13,16 @@ export default () => (
                 <p>
                     <b>Téléphone : </b>06 18 07 88 38
                 </p>
+                <p>
+                    <b>Mail : lecoledemusiquesactuelles@gmail.com</b>
+                </p>
             </div>
             <hr/>
             <GoogleMap />
         </div>
     </section>
 )
-/*
+/*  FORM CONTACT
 export default () => (
     <section className="hero is-fullheight has-text-centered">
         <div className="hero-body">
