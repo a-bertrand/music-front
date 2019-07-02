@@ -14,7 +14,7 @@ export default () => (
                     <b>Téléphone : </b>06 18 07 88 38
                 </p>
                 <p>
-                    <b>Mail : lecoledemusiquesactuelles@gmail.com</b>
+                    <b>Mail :</b> lecoledemusiquesactuelles@gmail.com
                 </p>
             </div>
             <hr/>
